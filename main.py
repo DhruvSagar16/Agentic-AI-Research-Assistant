@@ -1,15 +1,13 @@
 from dotenv import load_dotenv
 from pydantic import BaseModel
 from langchain_groq import ChatGroq
-from langchain_core.prompts import ChatPromptTemplate
-# Define a simple python class which will specify the type of content that we want our LLM to generate. 
+from langchain_core.prompts import ChatPromptTemplate 
 from langchain_core.output_parsers import PydanticOutputParser
 from langchain.agents import create_agent
 from tools import search_tool, wiki_tool, save_tool
 
 load_dotenv()
 
-# specify all the fields that you want as an output from your LLM call
 class ResearchResponse(BaseModel):
     topic: str  
     summary: str
@@ -19,12 +17,8 @@ class ResearchResponse(BaseModel):
 # Set up an LLM (USing chatgpt or claude or groq)
 llm = ChatGroq(model="qwen/qwen3-32b")
 
-# This below "parser" will take the output from the LLM and parse 
-# it into the model(ie. ResearchResponse(BaseModel)) and we can use it as a normal python object inside our code
 parser = PydanticOutputParser(pydantic_object=ResearchResponse)
 
-# verbose=True will give the thaught process of the agent and if you dont want it just use False 
-# this is the og code but does not run #agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 query = input("What can I help you with today? (add 'save to file' if you want to save the results) ")
 
 # Detect if user wants to save

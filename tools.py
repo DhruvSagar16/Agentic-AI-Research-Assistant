@@ -1,11 +1,5 @@
-'''
-Tools are things that the LLM/agent can use that we can either write
- ourself or we can bring in from things like the Langchain Community Hub.
- '''
-# Note: You will get rate limited if you use them too much.
 from langchain_community.tools import WikipediaQueryRun, DuckDuckGoSearchRun
 from langchain_community.utilities import WikipediaAPIWrapper
-# from langchain.tools import tool
 from langchain_core.tools import tool
 from datetime import datetime
 
@@ -35,9 +29,6 @@ def search_tool(query: str) -> str:
     return search.run(query)
 
 # Wikipedia tool
-# top_k_results=n , here n = 1,2,3,4,5..... and it will return n results from wikipedia
-'''Since this is just demo keep it till 100 only, doc_content_chars_max=100 if 1,000 or 10,000 the will get rate limited 
- faster as i am using the free api so tokens will exhaust faster '''
 api_wrapper = WikipediaAPIWrapper(top_k_results=1, doc_content_chars_max=100)
 wiki_tool = WikipediaQueryRun(api_wrapper=api_wrapper)
 

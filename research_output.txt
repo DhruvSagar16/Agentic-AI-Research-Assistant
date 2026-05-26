@@ -1,15 +1,6 @@
 --- Research Output ---
-Timestamp: 2026-05-03 21:59:12
-
-{'topic': 'Rivers', 'summary': 'Rivers are natural flowing watercourses that transport water from higher elevations to lower ones, often draining into oceans, lakes, or other rivers. They play critical roles in ecosystems, supporting biodiversity, shaping landscapes through erosion, and providing freshwater resources. Major rivers like the Nile, Amazon, and Yangtze are vital for human civilization, supporting agriculture, transportation, and culture. Rivers also influence climate by regulating water cycles and sediment distribution.', 'sources': ['https://www.nationalgeographic.org/encyclopedia/river/', 'https://www.britannica.com/science/river'], 'tools_used': ['search_tool', 'wikipedia']}
-
---- Research Output ---
 Timestamp: 2026-05-26 16:53:39
 
 {"topic": "Artificial Intelligence trends in 2026", "summary": "By 2026, AI is projected to see advancements in explainable AI (XAI), quantum machine learning, and AI-driven autonomous systems. Generative AI will likely dominate creative industries, while ethical AI frameworks will become regulatory standards. Healthcare will adopt AI for personalized treatment, and edge AI will expand IoT capabilities.\n\nKey predictors include increased adoption of foundation models, AI-powered climate solutions, and cross-industry automation. Risks like algorithmic bias and job displacement will drive policy innovations.\n\n(Sources: 2023 Gartner AI Hype Cycle, MIT Technology Review 2026 predictions, OECD AI Policy Observatory)", "sources": ["Gartner 2023 AI Hype Cycle Report", "MIT Technology Review - The 2026 AI Horizon", "World Economic Forum AI Trends 2025-2030", "arXiv.org preprint: 'Long-Term AI Development Pathways'"], "tools_used": ["search_tool", "wikipedia"]}
 
---- Research Output ---
-Timestamp: 2026-05-27 00:16:45
-
-{"topic": "Best Cities in the World", "summary": "Vienna, Austria, consistently ranks as the top city for quality of life, followed by cities like Zurich, Switzerland, and Helsinki, Finland. Rankings consider factors like healthcare, safety, education, and infrastructure. Other notable cities include Tokyo, Japan, and Copenhagen, Denmark.\n\nSources highlight Vienna's excellent public services and low crime rates, while Zurich excels in economic opportunities and cleanliness. Copenhagen and Amsterdam are praised for sustainability and work-life balance.\n\n", "sources": ["Mercer Quality of Living 2023", "Numbeo Global City Rankings", "U.S. News & World Report Best Countries Report 2023"], "tools_used": ["search_tool", "wikipedia"]}
 

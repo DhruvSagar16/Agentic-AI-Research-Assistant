@@ -3,7 +3,7 @@
 
 An autonomous AI-powered research agent that searches the web, queries Wikipedia, and compiles structured research reports — all from a single text prompt.
 
-Built with **LangChain**, **Groq (Qwen 32B)**, and custom tools for web search, Wikipedia lookup, and file saving.
+Built with **LangChain**, **Groq**, and custom tools for web search, Wikipedia lookup, and file saving.
 
 ---
 
@@ -39,7 +39,7 @@ ai-research-agent/
 | Tool | Purpose |
 |------|---------|
 | [LangChain](https://www.langchain.com/) | Agent orchestration framework |
-| [Groq](https://groq.com/) | Fast LLM inference (Qwen 32B model) |
+| [Groq](https://groq.com/) | Fast LLM inference (openai/gpt-oss-120b model) |
 | [DuckDuckGo Search](https://pypi.org/project/duckduckgo-search/) | Real-time web search |
 | [Wikipedia API](https://pypi.org/project/wikipedia/) | Structured knowledge lookup |
 | [Pydantic](https://docs.pydantic.dev/) | Structured output parsing |
